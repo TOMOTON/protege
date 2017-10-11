@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.protege.stanford.edu/dinner/"
+     xml:base="http://www.protege.stanford.edu/dinner/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.protege.stanford.edu/dinner">
+        <rdfs:comment>This ontology provides the starting poiint for the Protege short course lab exercises. It contains a list of ingredients of possible food dishes.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/containsFoodStuff -->
+
+    <owl:ObjectProperty rdf:about="http://www.protege.stanford.edu/dinner/containsFoodStuff"/>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.protege.stanford.edu/dinner/hasIngredient">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Apple -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Apple">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Artichoke -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Artichoke">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Arugula -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Arugula">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Banana -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Banana">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/BasilLeaf -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/BasilLeaf">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Beef -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Beef">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/Meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/BlackPepper -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/BlackPepper">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/BlackPepperCorn -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/BlackPepperCorn">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/BraisedArtichokesAndPeas -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/BraisedArtichokesAndPeas">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/VegetarianDish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Butter -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Butter">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Carrot -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Carrot">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Cookie -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Cookie">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/CrushedIce -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/CrushedIce">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Dinner -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Dinner"/>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/ExtraVirginOliveOil -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/ExtraVirginOliveOil">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/FoodDish -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/FoodDish"/>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/FoodStuff -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/FreshFruitWhips -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/FreshFruitWhips">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/VegetarianDish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Garlic -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Garlic">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/GarlicScentedTomatoSalad -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/GarlicScentedTomatoSalad">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/VegetarianDish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/GrilledTBoneSteakFlorentineStyle -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/GrilledTBoneSteakFlorentineStyle">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/MeatDish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/IceCream -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/IceCream">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Lemon -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Lemon">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/LemonJuice -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/LemonJuice">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/MaraschinoLiqueur -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/MaraschinoLiqueur">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Meat -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Meat">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/MeatBroth -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/MeatBroth">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/MeatDish -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/MeatDish">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodDish"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.protege.stanford.edu/dinner/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.protege.stanford.edu/dinner/Meat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Milk -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Milk">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Nutmeg -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Nutmeg">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Onion -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Onion">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/ParmigianoReggianoCheese -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/ParmigianoReggianoCheese">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Parsley -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Parsley">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Pea -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Pea">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Peach -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Peach">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Person -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Person"/>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/PineNut -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/PineNut">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Potato -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Potato">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Raspberry -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Raspberry">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/Potato"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/RedWineVinegar -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/RedWineVinegar">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Salt -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Salt">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Shortbread -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Shortbread">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/Cookie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/ShreadedCarrotSaladWithArugula -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/ShreadedCarrotSaladWithArugula">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/VegetarianDish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Spinach -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Spinach">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/SpinachSoup -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/SpinachSoup">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/VegetarianDish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Strawberry -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Strawberry">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Sugar -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Sugar">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/T-BoneBeefSteak -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/T-BoneBeefSteak">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/Tomato -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/Tomato">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/VegetableOil -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/VegetableOil">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/VegetarianBroth -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/VegetarianBroth">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/VegetarianDish -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/VegetarianDish">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodDish"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.protege.stanford.edu/dinner/hasIngredient"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.protege.stanford.edu/dinner/Meat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/WalkersShortbread -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/WalkersShortbread">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/Shortbread"/>
+        <rdfs:comment>Shortbread made to the Walkers recipe.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.protege.stanford.edu/dinner/WhippingCream -->
+
+    <owl:Class rdf:about="http://www.protege.stanford.edu/dinner/WhippingCream">
+        <rdfs:subClassOf rdf:resource="http://www.protege.stanford.edu/dinner/FoodStuff"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

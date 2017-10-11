@@ -1,0 +1,225 @@
+Date: 2017-10-10 20:16:47
+Ontology source: /C:/TMTN/GitHub/TOMOTON/protege/groceries.owl
+Worksheet source: C:\TMTN\GitHub\TOMOTON\protege\GroceryItems.xlsx
+Transformation rules: C:\TMTN\GitHub\TOMOTON\protege\GroceryItems.json
+
+# Cell range: (Recipe!A2:A+) Comment: ""
+# Class: @A*
+#    SubClassOf: hasIngredient some @B*
+
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A2.
+   SubClassOf: (hasIngredient SOME Fudge Coating)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A3.
+   SubClassOf: (hasIngredient SOME Wheat Flour)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A4.
+   SubClassOf: (hasIngredient SOME Evaporated Cane Juice)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A5.
+   SubClassOf: (hasIngredient SOME Palm Oil)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A6.
+   SubClassOf: (hasIngredient SOME Dutched Cocoa)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A7.
+   SubClassOf: (hasIngredient SOME Organic Evaporated Cane Juice Invert Syrup)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A8.
+   SubClassOf: (hasIngredient SOME Sodium Bicarbonate)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A9.
+   SubClassOf: (hasIngredient SOME Sea Salt)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A10.
+   SubClassOf: (hasIngredient SOME Soy Lecithin)
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Recipe'!A11.
+   SubClassOf: (hasIngredient SOME Peppermint Oil)
+Class: Fudge Coating  # Generated from value "Fudge Coating" located at cell 'Recipe'!A12.
+   SubClassOf: (hasIngredient SOME White Sugar)
+Class: Fudge Coating  # Generated from value "Fudge Coating" located at cell 'Recipe'!A13.
+   SubClassOf: (hasIngredient SOME Palm Kernel Oil)
+Class: Fudge Coating  # Generated from value "Fudge Coating" located at cell 'Recipe'!A14.
+   SubClassOf: (hasIngredient SOME Whey)
+Class: Fudge Coating  # Generated from value "Fudge Coating" located at cell 'Recipe'!A15.
+   SubClassOf: (hasIngredient SOME Soy Lecithin)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A16.
+   SubClassOf: (hasIngredient SOME Sweet Chocolate Coating)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A17.
+   SubClassOf: (hasIngredient SOME Enriched Wheat Flour)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A18.
+   SubClassOf: (hasIngredient SOME White Sugar)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A19.
+   SubClassOf: (hasIngredient SOME High Fructose Corn Syrup)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A20.
+   SubClassOf: (hasIngredient SOME Corn Syrup)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A21.
+   SubClassOf: (hasIngredient SOME Invert Cane Sugar)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A22.
+   SubClassOf: (hasIngredient SOME Gelatin)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A23.
+   SubClassOf: (hasIngredient SOME Sodium Bicarbonate)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A24.
+   SubClassOf: (hasIngredient SOME Salt)
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe'!A25.
+   SubClassOf: (hasIngredient SOME Soy Lecithin)
+Class: Sweet Chocolate Coating  # Generated from value "Sweet Chocolate Coating" located at cell 'Recipe'!A26.
+   SubClassOf: (hasIngredient SOME White Sugar)
+Class: Sweet Chocolate Coating  # Generated from value "Sweet Chocolate Coating" located at cell 'Recipe'!A27.
+   SubClassOf: (hasIngredient SOME Chocolate)
+Class: Sweet Chocolate Coating  # Generated from value "Sweet Chocolate Coating" located at cell 'Recipe'!A28.
+   SubClassOf: (hasIngredient SOME Cocoa Butter)
+Class: Sweet Chocolate Coating  # Generated from value "Sweet Chocolate Coating" located at cell 'Recipe'!A29.
+   SubClassOf: (hasIngredient SOME Dutched Cocoa)
+Class: Enriched Wheat Flour  # Generated from value "Enriched Wheat Flour" located at cell 'Recipe'!A30.
+   SubClassOf: (hasIngredient SOME Wheat Flour)
+Class: Enriched Wheat Flour  # Generated from value "Enriched Wheat Flour" located at cell 'Recipe'!A31.
+   SubClassOf: (hasIngredient SOME Niacin)
+Class: Enriched Wheat Flour  # Generated from value "Enriched Wheat Flour" located at cell 'Recipe'!A32.
+   SubClassOf: (hasIngredient SOME Reduced Iron)
+Class: Enriched Wheat Flour  # Generated from value "Enriched Wheat Flour" located at cell 'Recipe'!A33.
+   SubClassOf: (hasIngredient SOME Thiamin Mononitrate)
+Class: Enriched Wheat Flour  # Generated from value "Enriched Wheat Flour" located at cell 'Recipe'!A34.
+   SubClassOf: (hasIngredient SOME Riboflavin)
+Class: Enriched Wheat Flour  # Generated from value "Enriched Wheat Flour" located at cell 'Recipe'!A35.
+   SubClassOf: (hasIngredient SOME Folic Acid)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A36.
+   SubClassOf: (hasIngredient SOME Whole Grain Oat)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A37.
+   SubClassOf: (hasIngredient SOME Barley)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A38.
+   SubClassOf: (hasIngredient SOME Buckwheat)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A39.
+   SubClassOf: (hasIngredient SOME Hard Red Wheat)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A40.
+   SubClassOf: (hasIngredient SOME Triticale)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A41.
+   SubClassOf: (hasIngredient SOME Quinoa)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A42.
+   SubClassOf: (hasIngredient SOME Dried Cane Syrup)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A43.
+   SubClassOf: (hasIngredient SOME Semi Sweet Chocolate Chips)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A44.
+   SubClassOf: (hasIngredient SOME Canola Oil)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A45.
+   SubClassOf: (hasIngredient SOME Invert Cane Syrup)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A46.
+   SubClassOf: (hasIngredient SOME Unmodified Cornstarch)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A47.
+   SubClassOf: (hasIngredient SOME Chia Seed)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A48.
+   SubClassOf: (hasIngredient SOME Brown Rice Flour)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A49.
+   SubClassOf: (hasIngredient SOME Coconut)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A50.
+   SubClassOf: (hasIngredient SOME Whole Oat Flour)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A51.
+   SubClassOf: (hasIngredient SOME Evaporated Salt)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A52.
+   SubClassOf: (hasIngredient SOME Molasses)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A53.
+   SubClassOf: (hasIngredient SOME Vanilla Extract)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A54.
+   SubClassOf: (hasIngredient SOME Sodium Bicarbonate)
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Recipe'!A55.
+   SubClassOf: (hasIngredient SOME Soy Lecithin)
+Class: Semi Sweet Chocolate Chips  # Generated from value "Semi Sweet Chocolate Chips" located at cell 'Recipe'!A56.
+   SubClassOf: (hasIngredient SOME Dried Cane Syrup)
+Class: Semi Sweet Chocolate Chips  # Generated from value "Semi Sweet Chocolate Chips" located at cell 'Recipe'!A57.
+   SubClassOf: (hasIngredient SOME Chocolate Liquor)
+Class: Semi Sweet Chocolate Chips  # Generated from value "Semi Sweet Chocolate Chips" located at cell 'Recipe'!A58.
+   SubClassOf: (hasIngredient SOME Cocoa Butter)
+Class: Semi Sweet Chocolate Chips  # Generated from value "Semi Sweet Chocolate Chips" located at cell 'Recipe'!A59.
+   SubClassOf: (hasIngredient SOME Soy Lecithin)
+Class: Semi Sweet Chocolate Chips  # Generated from value "Semi Sweet Chocolate Chips" located at cell 'Recipe'!A60.
+   SubClassOf: (hasIngredient SOME Vanilla Bean)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A61.
+   SubClassOf: (hasIngredient SOME Enriched Wheat Flour)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A62.
+   SubClassOf: (hasIngredient SOME White Chocolate)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A63.
+   SubClassOf: (hasIngredient SOME White Sugar)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A64.
+   SubClassOf: (hasIngredient SOME Macadamia)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A65.
+   SubClassOf: (hasIngredient SOME Butter)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A66.
+   SubClassOf: (hasIngredient SOME Brown Sugar)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A67.
+   SubClassOf: (hasIngredient SOME Egg)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A68.
+   SubClassOf: (hasIngredient SOME Sodium Bicarbonate)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A69.
+   SubClassOf: (hasIngredient SOME Cream of Tartre)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A70.
+   SubClassOf: (hasIngredient SOME Ammonium Bicarbonate)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A71.
+   SubClassOf: (hasIngredient SOME Salt)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A72.
+   SubClassOf: (hasIngredient SOME Cornstarch)
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe'!A73.
+   SubClassOf: (hasIngredient SOME Tree Nut Meal)
+Class: White Chocolate  # Generated from value "White Chocolate" located at cell 'Recipe'!A74.
+   SubClassOf: (hasIngredient SOME White Sugar)
+Class: White Chocolate  # Generated from value "White Chocolate" located at cell 'Recipe'!A75.
+   SubClassOf: (hasIngredient SOME Cocoa Butter)
+Class: White Chocolate  # Generated from value "White Chocolate" located at cell 'Recipe'!A76.
+   SubClassOf: (hasIngredient SOME Skim Milk Powder)
+Class: White Chocolate  # Generated from value "White Chocolate" located at cell 'Recipe'!A77.
+   SubClassOf: (hasIngredient SOME Soy Lecithin)
+Class: White Chocolate  # Generated from value "White Chocolate" located at cell 'Recipe'!A78.
+   SubClassOf: (hasIngredient SOME Vanilla Extract)
+Class: Tree Nut Meal  # Generated from value "Tree Nut Meal" located at cell 'Recipe'!A79.
+   SubClassOf: (hasIngredient SOME Pecan)
+Class: Tree Nut Meal  # Generated from value "Tree Nut Meal" located at cell 'Recipe'!A80.
+   SubClassOf: (hasIngredient SOME Macadamia)
+Class: Tree Nut Meal  # Generated from value "Tree Nut Meal" located at cell 'Recipe'!A81.
+   SubClassOf: (hasIngredient SOME Walnut)
+Class: Tree Nut Meal  # Generated from value "Tree Nut Meal" located at cell 'Recipe'!A82.
+   SubClassOf: (hasIngredient SOME Cashew)
+Class: Tree Nut Meal  # Generated from value "Tree Nut Meal" located at cell 'Recipe'!A83.
+   SubClassOf: (hasIngredient SOME Almond)
+
+# Cell range: (Grocery Items!A2:A+) Comment: ""
+# Class: @A*
+#    SubClassOf: GroceryItem, containsFoodStuff some @B*
+#    Annotations: foaf:depiction @C*(IRI)
+
+Class: Back To Nature Fudge Mint Cookies Item  # Generated from value "Back To Nature Fudge Mint Cookies Item" located at cell 'Grocery Items'!A2.
+   SubClassOf: GroceryItem,
+         (containsFoodStuff SOME Fudge Mint Cookie)
+   Annotations: foaf:depiction http://i.imgur.com/q782EtN.jpg  # Generated from value "http://i.imgur.com/q782EtN.jpg" located at cell 'Grocery Items'!C2.
+Class: Mallomars Cookies Pure Chocolate Item  # Generated from value "Mallomars Cookies Pure Chocolate Item" located at cell 'Grocery Items'!A3.
+   SubClassOf: GroceryItem,
+         (containsFoodStuff SOME Mallomars Cookie)
+   Annotations: foaf:depiction http://i.imgur.com/giWpIbx.jpg  # Generated from value "http://i.imgur.com/giWpIbx.jpg" located at cell 'Grocery Items'!C3.
+Class: Kashi Crunch Chocolate Chip Bar Item  # Generated from value "Kashi Crunch Chocolate Chip Bar Item" located at cell 'Grocery Items'!A4.
+   SubClassOf: GroceryItem,
+         (containsFoodStuff SOME Kashi Crunch Chocolate Chip Bar)
+   Annotations: foaf:depiction http://i.imgur.com/PR0kmvA.jpg  # Generated from value "http://i.imgur.com/PR0kmvA.jpg" located at cell 'Grocery Items'!C4.
+Class: Pepperidge Farm Tahoe White Chocolate Macadamia Cookies Item  # Generated from value "Pepperidge Farm Tahoe White Chocolate Macadamia Cookies Item" located at cell 'Grocery Items'!A5.
+   SubClassOf: GroceryItem,
+         (containsFoodStuff SOME White Chocolate Macadamia Cookie)
+   Annotations: foaf:depiction http://i.imgur.com/1WSAbEU.jpg  # Generated from value "http://i.imgur.com/1WSAbEU.jpg" located at cell 'Grocery Items'!C5.
+
+# Cell range: (Recipe 3 Alts!A2:A+) Comment: ""
+# Class: @A*
+#   SubClassOf: hasIngredient some @B*
+# 	or hasIngredient some @C*
+# 	or hasIngredient some @D*
+
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Recipe 3 Alts'!A2.
+   SubClassOf: ((hasIngredient SOME Canola Oil) OR
+         (hasIngredient SOME Palm Oil) OR
+         (hasIngredient SOME Palm Kernel Oil))
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Recipe 3 Alts'!A3.
+   SubClassOf: ((hasIngredient SOME Palm Oil) OR
+         (hasIngredient SOME Hydrogenated Soy Bean Oil) OR
+         (hasIngredient SOME Cotton Seed Oil))
+
+# Cell range: (Food Stuff Organization!A2:A+) Comment: ""
+# Class: @A*
+#     SubClassOf: @B*
+
+Class: Fudge Mint Cookie  # Generated from value "Fudge Mint Cookie" located at cell 'Food Stuff Organization'!A2.
+   SubClassOf: Cookie
+Class: Kashi Crunch Chocolate Chip Bar  # Generated from value "Kashi Crunch Chocolate Chip Bar" located at cell 'Food Stuff Organization'!A3.
+   SubClassOf: Cereal Bar
+Class: Mallomars Cookie  # Generated from value "Mallomars Cookie" located at cell 'Food Stuff Organization'!A4.
+   SubClassOf: Cookie
+Class: White Chocolate Macadamia Cookie  # Generated from value "White Chocolate Macadamia Cookie" located at cell 'Food Stuff Organization'!A5.
+   SubClassOf: Cookie
+
+===========================================================================================================
