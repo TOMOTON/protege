@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1508332758398" name="http://protege.stanford.edu/ontologies/groceries/" uri="posc-groceries.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1508332758398" name="duplicate:http://protege.stanford.edu/ontologies/grocery-ontology" uri="grocery-sparql.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1508332758398" name="duplicate:http://protege.stanford.edu/ontologies/grocery-ontology" uri="sparql-groceries.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1508332758398" name="http://protege.stanford.edu/ontology/groceries" uri="groceries%20(broken).owl"/>
+        <uri id="Automatically generated entry, Timestamp=1508332758398" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="pizza.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1508332758398" name="duplicate:http://www.protege.stanford.edu/dinner/" uri="dinner-start.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1508332758398" name="duplicate:http://www.protege.stanford.edu/dinner/" uri="dinner.owl"/>
+    </group>
+</catalog>

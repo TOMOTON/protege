@@ -1,0 +1,254 @@
+-------------------------------------------------------
+Querying with SPARQL: Proposed exercise solutions
+-------------------------------------------------------
+
+NOTE:
+These solutions are meant to be used in conjunction with the ontology: sparql-groceries.owl (v1.2), available at: 
+
+- https://tinyurl.com/posc1703-sparql
+- http://protege.stanford.edu/shortcourse/201703/resources/materials/sparql/sparql-groceries.owl
+
+
+-------------------------------------------------------
+Prefixes
+———————————————————————————
+PREFIX : <http://protege.stanford.edu/ontologies/grocery-ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+-------------------------------------------------------
+1. (a)
+-------------------------------------------------------
+SELECT ?x WHERE {
+  ?x rdfs:subClassOf :FoodStuff
+}
+
+-------------------------------------------------------
+1. (b)
+-------------------------------------------------------
+SELECT ?x ?y WHERE {
+  ?x rdfs:subClassOf :FoodStuff .
+  ?x rdfs:label ?y
+}
+
+-------------------------------------------------------
+1. (c)
+-------------------------------------------------------
+SELECT ?x ?y WHERE {
+  ?x rdfs:subClassOf :FoodStuff .
+  ?x rdfs:label ?y
+}
+ORDER BY ASC(?y)
+
+
+
+-------------------------------------------------------
+2. (a)
+-------------------------------------------------------
+SELECT ?x WHERE {
+  ?x rdf:type :Country
+}
+
+-------------------------------------------------------
+2. (b)
+-------------------------------------------------------
+SELECT ?x WHERE {
+  ?x :isLocatedIn :Scotland
+}
+
+-------------------------------------------------------
+2. (c)
+-------------------------------------------------------
+SELECT ?x ?y WHERE {
+  ?x :isLocatedIn ?y
+}
+
+
+
+-------------------------------------------------------
+3. (a)
+-------------------------------------------------------
+SELECT ?x WHERE {
+  ?x rdf:type owl:Class
+}
+
+-------------------------------------------------------
+3. (b)
+-------------------------------------------------------
+SELECT ?x WHERE {
+  ?x rdf:type owl:NamedIndividual
+}
+
+
+
+-------------------------------------------------------
+4. (a)
+-------------------------------------------------------
+SELECT ?x WHERE {
+  ?x rdfs:subClassOf ?y
+}
+
+-------------------------------------------------------
+4. (b)
+-------------------------------------------------------
+SELECT ?x ?y WHERE {
+  ?x rdfs:subClassOf ?y
+}
+
+-------------------------------------------------------
+4. (c)
+-------------------------------------------------------
+SELECT DISTINCT ?x WHERE {
+  ?x rdfs:subClassOf ?y
+}
+
+
+
+-------------------------------------------------------
+5. (a)
+-------------------------------------------------------
+SELECT ?plbl ?y WHERE {
+  ?x :isSoldByStore ?y .
+  ?y rdf:type :WholeFoodsStore .
+  ?x :hasProductType ?pt .
+  ?pt rdf:type ?p .
+  ?p rdfs:label ?plbl
+}
+
+-------------------------------------------------------
+5. (b)
+-------------------------------------------------------
+SELECT ?plbl ?store ?price WHERE {
+  ?x :hasPrice ?price ; :isSoldByStore ?store .
+  FILTER (?price < 10) .
+  ?x :hasProductType ?pt .
+  ?pt rdf:type ?p .
+  ?p rdfs:label ?plbl
+}
+
+-------------------------------------------------------
+5. (c)
+-------------------------------------------------------
+SELECT ?plbl ?store ?price WHERE {
+  ?x :hasPrice ?price ; :isSoldByStore ?store .
+  FILTER (?price < 10) .
+  ?x :hasProductType ?pt .
+  ?pt rdf:type ?p .
+  ?p rdfs:label ?plbl
+}
+ORDER BY ?price
+
+-------------------------------------------------------
+5. (d)
+-------------------------------------------------------
+SELECT ?prod WHERE {
+  ?x :isMadeIn :Scotland .
+  ?x rdf:type ?y .
+  ?y rdfs:label ?prod
+}
+
+-------------------------------------------------------
+5. (e)
+-------------------------------------------------------
+SELECT ?prod WHERE {
+  ?x :isMadeIn :Europe .
+  ?x rdf:type ?y .
+  ?y rdfs:label ?prod
+}
+
+
+
+-------------------------------------------------------
+6. (a)
+-------------------------------------------------------
+SELECT ?prod WHERE {
+  ?x rdf:type :GroceryItemThatContainsGluten .
+  ?x rdf:type ?y .
+  ?y rdfs:label ?prod 
+}
+
+-------------------------------------------------------
+6. (b)
+-------------------------------------------------------
+SELECT ?prod WHERE {
+  ?x rdf:type :GroceryItemThatContainsGluten .
+  ?x rdf:type ?y .
+  ?y rdfs:label ?prod .
+  MINUS { ?x rdf:type :GroceryItemThatContainsSoy } 
+}
+
+
+
+
+
+-------------------------------------------------------
+7. (a)
+-------------------------------------------------------
+SELECT ?x ?y WHERE {
+  ?x rdfs:subClassOf :FoodStuff .
+  OPTIONAL { ?x rdfs:label ?y }
+}
+
+-------------------------------------------------------
+7. (b)
+-------------------------------------------------------
+SELECT ?x ?y WHERE {
+    ?x rdfs:subClassOf :FoodStuff . 
+    ?x rdfs:label ?y
+    FILTER (LANG(?y) = "pt")
+}
+
+-------------------------------------------------------
+7. (c)
+-------------------------------------------------------
+SELECT ?x ?lab WHERE {
+  ?x rdfs:subClassOf :FoodStuff .
+  OPTIONAL { ?x rdfs:label ?lab }
+  FILTER (LANG(?lab) = "de" || LANG(?lab) = "pt" ||  !BOUND(?lab))
+}
+
+-------------------------------------------------------
+7. (d)
+-------------------------------------------------------
+SELECT ?x ?y WHERE {
+  ?x rdfs:subClassOf :FoodStuff .
+  ?x rdfs:label ?y
+  FILTER CONTAINS(?y, "Shortbread")
+}
+
+
+
+
+-------------------------------------------------------
+8. (a) Query for the most expensive item per store
+-------------------------------------------------------
+SELECT (SAMPLE(?label) AS ?prod) (MAX(?y) AS ?maxPrice) ?store WHERE {
+  ?x :hasPrice ?y .
+  ?x :isSoldByStore ?store .
+  ?x :hasProductType ?pt .
+  ?pt rdf:type ?p .
+  ?p rdfs:label ?label
+}
+GROUP BY ?store
+
+-------------------------------------------------------
+8. (b) Query for the total price of all products in each store
+-------------------------------------------------------
+SELECT ?store (SUM(?price) AS ?total) WHERE {
+  ?x :hasPrice ?price .
+  ?x :isSoldByStore ?store .
+}
+GROUP BY ?store
+
+-------------------------------------------------------
+8. (c) Query for the average price of all products in each store
+-------------------------------------------------------
+SELECT ?store (AVG(?price) AS ?total) WHERE {
+  ?x :hasPrice ?price .
+  ?x :isSoldByStore ?store .
+}
+GROUP BY ?store
+
+
